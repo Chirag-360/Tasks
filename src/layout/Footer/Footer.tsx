@@ -25,7 +25,7 @@ export const Footer = () => {
   ];
 
   return (
-    <footer className="bg-white border-t border-gray-150 p-4 fixed bottom-0 w-screen z-10 pt-20">
+    <footer className="bg-white border-t border-gray-150 p-4 relative bottom-0 w-screen z-10 pt-20">
       <div className="max-w mx-10 mt-10 flex flex-wrap justify-center">
         <div className="w-full lg:w-1/4 px-4 mb-8 border-b border-gray-300 pb-4">
           <img src={image.logo} alt="Travlog logo" className="h-8 w-auto" />

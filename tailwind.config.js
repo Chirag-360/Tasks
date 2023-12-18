@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "theme-blue": "#5D50C6",
+        "theme-pink": "#F85E9F",
       },
     },
   },
