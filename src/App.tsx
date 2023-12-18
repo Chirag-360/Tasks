@@ -1,7 +1,14 @@
 import "./App.css";
+import { Footer } from "./layout/Footer";
+import { Navbar } from "./layout/Header/Nabbar";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Navbar />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
