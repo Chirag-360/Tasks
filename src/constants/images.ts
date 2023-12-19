@@ -9,6 +9,9 @@ import airbnb from "../assets/companies/airbnb.png";
 import tripadvisor from "../assets/companies/tripadvisor.png";
 import rbitz from "../assets/companies/rbitz.png";
 import expedia from "../assets/companies/expedia.png";
+import woman from "../assets/banner/woman.png";
+import layer from "../assets/banner/layer.png";
+import bag from "../assets/Icons/bag.png";
 
 export const image = {
   logo: Travlog,
@@ -22,4 +25,7 @@ export const image = {
   expedia: expedia,
   rbitz: rbitz,
   tripadvisor: tripadvisor,
+  woman: woman,
+  layer: layer,
+  bag: bag,
 };
