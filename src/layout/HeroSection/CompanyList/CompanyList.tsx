@@ -2,7 +2,7 @@ import { image } from "../../../constants";
 
 export const CompanyList = () => {
   return (
-    <div className="bg-white w-full py-16 flex flex-col items-center justify-center">
+    <div className="bg-white w-full pb-16 flex flex-col items-center justify-center">
       <div className="flex gap-20">
         <div className="w-30 h-10 rounded-xl flex items-center justify-center">
           <img

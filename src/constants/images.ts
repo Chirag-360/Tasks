@@ -16,6 +16,10 @@ import hotairballon from "../assets/destinations/hotairballon.png";
 import flower from "../assets/destinations/flower.png";
 import castle from "../assets/destinations/castle.png";
 import star from "../assets/Icons/Star.png";
+import location from "../assets/Icons/location.png";
+import signal from "../assets/Icons/signal.png";
+import arrowRight from "../assets/Icons/arrow-right_.png";
+import arrowLeft from "../assets/Icons/arrow-left.png";
 import tokyo from "../assets/city/tokyo.png";
 import bangkok from "../assets/city/bangkok.png";
 import barcelona from "../assets/city/barcelona.png";
@@ -48,4 +52,8 @@ export const image = {
   rome: rome,
   barcelona: barcelona,
   bangkok: bangkok,
+  arrowRight: arrowRight,
+  arrowLeft: arrowLeft,
+  location: location,
+  signal: signal,
 };

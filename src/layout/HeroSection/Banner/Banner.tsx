@@ -11,16 +11,18 @@ export const Banner = () => {
     //     </button>
     //   </div>
     // </div>
-    <div className="bg-neutral-50 px-6 py-12 text-center bg-white md:px-12 lg:text-left">
-      <div className="w-full mx-16 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl h-screen flex items-center justify-center">
-        <button className="bg-white rounded-3xl shadow-lg flex items-center justify-between gap-3 shadow-gray-600/20 border-gray-100 text-theme-pink whitespace-nowrap px-7 hover:shadow-lg hover:shadow-theme-blue/50 hover:text-white hover:bg-theme-blue">
-          Explore the world!
-          <div>
-            <img src={image.bag} alt="bag-Icon" className="w-10 h-5" />
-          </div>
-        </button>
-        <div className="grid items-center gap-[6rem] lg:grid-cols-2">
+    <div className="bg-neutral-50 px-6 text-center bg-white md:px-12 lg:text-left">
+      {/* <div className="w-full mx-16 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl h-screen flex items-center justify-center"> */}
+      <div className="w-full mx-16  h-screen flex items-center justify-center">
+        {/* <div className="grid items-center gap-[6rem] lg:grid-cols-2"> */}
+        <div className="flex justify-between items-center gap-60">
           <div className="mt-12 lg:mt-0">
+            <button className="bg-white rounded-3xl shadow-lg  w-30 h-14 flex items-center justify-between mb-12 gap-3 shadow-gray-600/20 border-gray-100 text-theme-pink whitespace-nowrap px-7 hover:shadow-lg hover:shadow-theme-blue/50 hover:text-white hover:bg-theme-blue">
+              Explore the world!
+              <div>
+                <img src={image.bag} alt="bag-Icon" />
+              </div>
+            </button>
             <h1 className="mt-2 mb-16 text-5xl font-bold tracking-tight md:text-7xl xl:text-8xl">
               Travel <span className="text-theme-pink">top</span>
               <p className="text-theme-pink">destination</p>
@@ -35,21 +37,43 @@ export const Banner = () => {
               </button>
             </div>
           </div>
-          <div className="mb-12 lg:mb-0 w-[400px] h-[200px]">
-            <div className="relative inset-0 bg-blue-500 w-[300px] to-purple-500 rounded-full opacity-80">
+          {/* <div className="mb-12 lg:mb-0 w-[400px] h-[200px]"> */}
+          <div className="">
+            <div className="relative inset-0 bg-blue-500 w-[600px] h-[600px] to-purple-500 rounded-full opacity-80">
               <div
-                className="relative"
+                className="w-full bg-no-repeat relative"
                 style={{
                   backgroundImage: `url(${image.layer})`,
                 }}
               >
+                <button className="bg-white left-80bottom-5 top-0 relative rounded-3xl shadow-lg  w-30 h-20 flex items-center justify-between mb-12 gap-3 shadow-gray-600/20 border-gray-100 text-theme-black whitespace-nowrap px-7 hover:shadow-lg hover:shadow-theme-pink/50 hover:text-white hover:bg-theme-pink">
+                  <div>
+                    <img src={image.location} alt="bag-Icon" />
+                  </div>
+                  <p className="text-2xl text-theme-blue">
+                    5000+ <br />
+                    <span className="text-[12px]">Customer</span>
+                  </p>
+                </button>
                 <img
                   src={image.woman}
                   // className="w-full rounded-lg shadow-lg dark:shadow-black/20"
-                  className="w-full relative"
+                  className="w-[400px] relative"
                   alt=""
                 />
               </div>
+              <button className="bg-white  bottom-5 right-20 relative rounded-3xl shadow-lg  w-30 h-14 flex items-center justify-between mb-12 gap-3 shadow-gray-600/20 border-gray-100 text-theme-black whitespace-nowrap px-7 hover:shadow-lg hover:shadow-theme-blue/50 hover:text-white hover:bg-theme-blue">
+                <div>
+                  <img src={image.location} alt="bag-Icon" />
+                </div>
+                Top Places
+              </button>
+              <button className="bg-white bottom-36 left-80 relative rounded-3xl shadow-lg  w-30 h-14 flex items-center justify-between mb-12 gap-3 shadow-gray-600/20 border-gray-100 text-theme-black whitespace-nowrap px-7 hover:shadow-lg hover:shadow-theme-blue/50 hover:text-white hover:bg-theme-blue">
+                <div>
+                  <img src={image.location} alt="bag-Icon" />
+                </div>
+                Top Hotels
+              </button>
             </div>
           </div>
         </div>
