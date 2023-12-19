@@ -12,6 +12,10 @@ import expedia from "../assets/companies/expedia.png";
 import woman from "../assets/banner/woman.png";
 import layer from "../assets/banner/layer.png";
 import bag from "../assets/Icons/bag.png";
+import hotairballon from "../assets/destinations/hotairballon.png";
+import flower from "../assets/destinations/flower.png";
+import castle from "../assets/destinations/castle.png";
+import star from "../assets/Icons/Star.png";
 
 export const image = {
   logo: Travlog,
@@ -28,4 +32,8 @@ export const image = {
   woman: woman,
   layer: layer,
   bag: bag,
+  flower: flower,
+  hotairballon: hotairballon,
+  castle: castle,
+  star: star,
 };
