@@ -1,10 +1,10 @@
-import { Destination } from "../../Arrays/Destination";
+import { CityDestinations } from "../../Arrays/Destination";
 import { image } from "../../constants/images";
 
-export const DestinationCard = () => {
+export const CityDestination = () => {
   return (
     <div className="flex flex-wrap gap-12  bg-transparent justify-center mx-20">
-      {Destination.map((item) => {
+      {CityDestinations.map((item) => {
         const { description, images, price, star, title, address } = item;
 
         return (

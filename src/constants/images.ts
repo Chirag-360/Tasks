@@ -16,6 +16,12 @@ import hotairballon from "../assets/destinations/hotairballon.png";
 import flower from "../assets/destinations/flower.png";
 import castle from "../assets/destinations/castle.png";
 import star from "../assets/Icons/Star.png";
+import tokyo from "../assets/city/tokyo.png";
+import bangkok from "../assets/city/bangkok.png";
+import barcelona from "../assets/city/barcelona.png";
+import rome from "../assets/city/rome.png";
+import sydney from "../assets/city/sydney.png";
+import toronto from "../assets/city/toronto.png";
 
 export const image = {
   logo: Travlog,
@@ -36,4 +42,10 @@ export const image = {
   hotairballon: hotairballon,
   castle: castle,
   star: star,
+  tokyo: tokyo,
+  toronto: toronto,
+  sydney: sydney,
+  rome: rome,
+  barcelona: barcelona,
+  bangkok: bangkok,
 };
