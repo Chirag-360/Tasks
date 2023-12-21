@@ -26,6 +26,7 @@ import barcelona from "../assets/city/barcelona.png";
 import rome from "../assets/city/rome.png";
 import sydney from "../assets/city/sydney.png";
 import toronto from "../assets/city/toronto.png";
+import line from "../assets/banner/line.png";
 
 export const image = {
   logo: Travlog,
@@ -56,4 +57,5 @@ export const image = {
   arrowLeft: arrowLeft,
   location: location,
   signal: signal,
+  line: line,
 };

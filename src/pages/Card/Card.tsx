@@ -14,7 +14,6 @@ export const DestinationCard = () => {
               alt={title}
               className="w-full h-auto rounded-lg"
             />
-            {/* <div className="inset-x-0 bottom-0 h-6 bg-gradient-to-t from-pink-500 via-blue-500 opacity-50 rounded-lg"></div> */}
 
             {star ? (
               <button className="absolute backdrop-blur-sm bg-black/20 top-2 right-5 backdrop-blur-none rounded-3xl shadow-lg flex items-center justify-between gap-3 border-none text-theme-pink whitespace-nowrap px-7 py-3 hover:shadow-lg hover:shadow-theme-blue/50 hover:text-white hover:bg-theme-blue">
