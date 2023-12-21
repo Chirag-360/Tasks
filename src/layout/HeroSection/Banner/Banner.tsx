@@ -39,26 +39,34 @@ export const Banner = () => {
           </div>
           {/* <div className="mb-12 lg:mb-0 w-[400px] h-[200px]"> */}
           <div className="">
-            <div className="relative inset-0 bg-blue-500 w-[600px] h-[600px] to-purple-500 rounded-full opacity-80">
+            <div className="relative  inset-0 bg-blue-500 w-[600px] h-[600px] to-purple-500 rounded-full opacity-80">
               <div
-                className="w-full bg-no-repeat relative"
-                style={{
-                  backgroundImage: `url(${image.layer})`,
-                }}
+                className="w-full h-full z-500 flex justify-center item-center bg-no-repeat relative"
+                // style={{
+                //   // backgroundImage: `url(${image.layer})`,
+                //   backgroundPosition: "1ch 2em",
+                //   overflow: "hidden",
+                // }}
               >
+                <img src={image.layer} className="h-full w-[700px]"></img>
                 <button className="bg-white left-80bottom-5 top-0 relative rounded-3xl shadow-lg  w-30 h-20 flex items-center justify-between mb-12 gap-3 shadow-gray-600/20 border-gray-100 text-theme-black whitespace-nowrap px-7 hover:shadow-lg hover:shadow-theme-pink/50 hover:text-white hover:bg-theme-pink">
-                  <div>
-                    <img src={image.location} alt="bag-Icon" />
+                  <div className="">
+                    <img
+                      src={image.location}
+                      alt="bag-Icon"
+                      className="relative"
+                    />
                   </div>
                   <p className="text-2xl text-theme-blue">
                     5000+ <br />
                     <span className="text-[12px]">Customer</span>
                   </p>
+                  d
                 </button>
                 <img
                   src={image.woman}
                   // className="w-full rounded-lg shadow-lg dark:shadow-black/20"
-                  className="w-[400px] relative"
+                  className="absolute self-end -bottom-1"
                   alt=""
                 />
               </div>
