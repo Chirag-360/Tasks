@@ -40,31 +40,6 @@ export const DestinationCard = () => {
                 See More
               </button>
             </div>
-            {/* <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-40 opacity-0 hover:opacity-100 transition-opacity duration-300">
-              <button className="bg-white text-amber-500 py-2 px-4 mb-2">
-                Add to cart
-              </button>
-              <div className="flex">
-                <img
-                  className="h-5 mr-2"
-                  src="/hoverIcons/Group.png"
-                  alt="Share Icon"
-                />
-                <p className="text-white mr-4">Share</p>
-                <img
-                  className="h-5 mr-2"
-                  src="/hoverIcons/Vector.png"
-                  alt="Compare Icon"
-                />
-                <p className="text-white mr-4">Compare</p>
-                <img
-                  className="h-5 mr-2"
-                  src="/hoverIcons/Vector(1).png"
-                  alt="Like Icon"
-                />
-                <p className="text-white">Like</p>
-              </div>
-            </div> */}
           </div>
         );
       })}

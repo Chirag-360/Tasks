@@ -4,7 +4,7 @@ export const Banner = () => {
   return (
     <div className="bg-neutral-50 px-6 text-center bg-white md:px-12 lg:text-left">
       <div className="w-full mx-16  h-screen flex items-center ">
-        <div className="flex w-11/12 justify-between items-center">
+        <div className="flex w-11/12 justify-between items-center sm:grid-cols-2 ">
           <div className="mt-12 lg:mt-0">
             <button className="bg-white rounded-3xl shadow-lg  w-30 h-14 flex items-center justify-between mb-12 gap-3 shadow-gray-600/20 border-gray-100 text-theme-pink whitespace-nowrap px-7 hover:shadow-lg hover:shadow-theme-blue/50 hover:text-white hover:bg-theme-blue">
               Explore the world!
