@@ -12,7 +12,7 @@ export const Banner = () => {
                 <img src={image.bag} alt="bag-Icon" />
               </div>
             </button>
-            <h1 className="mt-2 mb-16 text-5xl font-bold tracking-tight md:text-7xl xl:text-8xl">
+            <h1 className="mt-2 mb-16 text-5xl font-bold tracking-tight md:text-7xl xl:text-8xl text-theme-blue">
               Travel <span className="text-theme-pink">top</span>
               <p className="text-theme-pink">destination</p>
               <span className="text-primary">of the world</span>
